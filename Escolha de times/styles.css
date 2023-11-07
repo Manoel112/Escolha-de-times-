@@ -1,0 +1,40 @@
+.equipe {
+    background-color: #E5E5E5;
+    border: 2px solid #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+/* Cores para equipes diferentes */
+.equipe-1 {
+    background-color: #FF5733;
+    border-color: #D83B14;
+}
+
+.equipe-2 {
+    background-color: #33FF57;
+    border-color: #14D83B;
+}
+
+.equipe-3 {
+    background-color: #5733FF;
+    border-color: #3B14D8;
+}
+
+.equipe-4 {
+    background-color: #FFFF33;
+    border-color: #D8D83B;
+}
+
+.equipe-5 {
+    background-color: #33FFFF;
+    border-color: #14D8D8;
+}
+
+/* Container das equipes */
+.times-container {
+    display: flex;
+    flex-wrap: wrap;
+}
